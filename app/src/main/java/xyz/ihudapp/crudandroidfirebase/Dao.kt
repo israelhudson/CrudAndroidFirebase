@@ -6,9 +6,9 @@ import com.google.firebase.database.ValueEventListener
 
 class Dao {
 
-    fun getByLearn(callback: (ByLearn?)-> Unit){
+    val database = Firebase.getDatabade()
 
-        val database = Firebase.getDatabade().child("bylearn")
+    fun getByLearn(callback: (ByLearn?)-> Unit){
 
         database.addValueEventListener(object: ValueEventListener{
             override fun onCancelled(p0: DatabaseError) {
@@ -22,5 +22,9 @@ class Dao {
             }
 
         })
+    }
+
+    fun salvar(byLearn: ByLearn) {
+        database.child("bylearn").setValue(byLearn)
     }
 }

@@ -23,5 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/main_blog"
             android:text="Enviar"
+            android:id="@+id/main_enviar"
     />
 </RelativeLayout>
