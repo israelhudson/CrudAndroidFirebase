@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61171730102",
+    "firebase_url": "https://crudandroidfirebase-7a1c5.firebaseio.com",
+    "project_id": "crudandroidfirebase-7a1c5",
+    "storage_bucket": "crudandroidfirebase-7a1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61171730102:android:c36125f81c5c6e2b",
+        "android_client_info": {
+          "package_name": "xyz.ihudapp.crudandroidfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61171730102-coesvu1fi5chbh6j9nndbmbcsor9naed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBheTMrQYj8pI_4bZAmOLPKw7asbDalJCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61171730102-coesvu1fi5chbh6j9nndbmbcsor9naed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
